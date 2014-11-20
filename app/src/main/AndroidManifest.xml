@@ -18,11 +18,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".DisplayDetails"
-            android:theme="@android:style/Theme.Dialog"
-            android:label="@string/title_activity_display_details" >
+            android:label="@string/title_activity_display_details"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".CustomBaseAdapterActivity"
+            android:label="@string/title_activity_custom_base_adapter" >
+        </activity>
+        <activity
+            android:name=".ExpendableListActivity"
+            android:label="@string/title_activity_custom_base_adapter" >
+        </activity>
+        <activity
+            android:name=".CustomArrayAdapterActivity"
+            android:label="@string/title_activity_custom_array_adapter" >
         </activity>
     </application>
 

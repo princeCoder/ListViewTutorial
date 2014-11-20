@@ -58,14 +58,12 @@ public class CustomBaseAdapter extends BaseAdapter{
             vi = mInflater.inflate(R.layout.row_item, null);
             holder=new ViewHolder(vi);
             vi.setTag(R.id.holder,holder);
-            vi.setTag(R.id.userbean,mListOfUser.get(position));
         }
         else
-            holder=(ViewHolder)vi.getTag(R.id.holder);
-        holder.setName(mListOfUser.get(position).getName());
-        holder.setTitle(mListOfUser.get(position).getTitle());
-        holder.setCompany(mListOfUser.get(position).getCompany());
-        UserBean b=(UserBean)vi.getTag(R.id.userbean);
+            holder=(ViewHolder)vi.getTag();
+            holder.setName(mListOfUser.get(position).getName());
+            holder.setTitle(mListOfUser.get(position).getTitle());
+            holder.setCompany(mListOfUser.get(position).getCompany());
         return vi;
     }
 }

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ListViewTutorial</string>
+    <string name="app_name">ListView Tutorial</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="api_url">http://beta.json-generator.com/api/json/get/C5tfWU5</string>
     <string name="title_activity_display_details">DisplayDetails</string>
+    <string name="title_activity_custom_base_adapter">CustomBaseAdapterActivity</string>
+    <string name="title_activity_custom_array_adapter">CustomArrayAdapterActivity</string>
 
 </resources>
